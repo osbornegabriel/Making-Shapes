@@ -1,0 +1,15 @@
+body {
+  color: #FFFFFB;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+section {
+  padding: 30vh 0;
+}
+
+.one {
+  background: #FFC145;
+  position: relative;
+}
