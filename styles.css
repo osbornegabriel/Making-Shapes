@@ -9,6 +9,21 @@ section {
   padding: 30vh 0;
 }
 
+.one__icon {
+  background: rgba(0,0,0,.3);
+  color: rgba(0,0,0,.3);
+  /* Color rgba makes the text just a little darker than background that's rgba (when they are the same color) */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  /* putting a border radius on a perfect square, creates a nice circle! */
+  display: grid;
+  place-items: center;
+  /* ^^^ for centering content in middle of circle */
+  font-size: 2em;
+}
+
 .one {
   background: #FFC145;
   position: relative;
