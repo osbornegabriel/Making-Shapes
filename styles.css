@@ -37,7 +37,7 @@ section {
   height: 150px;
   background: #FFC145;
   bottom: -1em;
-  z-index: 5;
+  z-index: 50;
 }
 
 .one::before {
@@ -48,4 +48,20 @@ section {
 .one::after {
   left: 50%;
   transform: skew(0,-20deg);
+}
+
+.two {
+  background: #FF6B6C;
+  margin-bottom: -10vw;
+  position: relative;
+  z-index: 10;
+}
+
+.two__image {
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  /* You can use circle with clip-path ^^^*/
+}
+
+.three {
+  background: #5B5F97;
 }
