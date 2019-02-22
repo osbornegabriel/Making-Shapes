@@ -52,9 +52,11 @@ section {
 
 .two {
   background: #FF6B6C;
-  margin-bottom: -10vw;
+  /*margin-bottom: -10vw;*/
   position: relative;
   z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  margin-bottom: -10vw;
 }
 
 .two__image {
